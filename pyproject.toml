@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "audio"
+version = "0.1.0"
+description = ""
+authors = ["Esa Niemi"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10.16"
+pydub = "0.25.1"
+python-telegram-bot = "21.9"
+python-dotenv = "1.0.1"
+yt-dlp = "2024.12.23"
+fastapi = "0.115.6"
+uvicorn = "0.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
